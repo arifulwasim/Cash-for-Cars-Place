@@ -1,0 +1,278 @@
+/*
+	===== Autthor Info =====
+
+	Name : Md.Ariful Islam 
+	Student Of Sonargoan University 
+	Dept. of CSE
+*/
+
+
+
+
+
+/*Global CSS*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+</style>
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*Header Section Start*/
+
+header{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/baner.png);
+	background-position: center;
+	background-size: cover;
+	min-height: 630px;
+}
+header .navbar{
+    padding: 30px 30px 0px 30px;
+}
+header .img-mod{
+	width: 70%;
+}
+header .navbar .nav-item{
+    padding: 0 50px;
+}
+header .navbar .nav-item .nav-link{
+    color: #CCCECE;
+}
+header .navbar .nav-item .nav-link:hover{
+    color: #fff;
+    
+}
+header .navbar .nav-item.active .nav-link{
+    color: #CCCECE;
+}
+header .banner-content h1{
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    width: 37%;
+    padding: 5px 20px;
+    font-weight: 400;
+    margin-top: 110px;
+}
+header .banner-content p{
+    color: #CCCECE;
+    padding-right: 48%;
+    margin-top: 20px;
+    margin-bottom: 68px;
+}
+header .banner-content .line{
+	height: 2px;
+	width: 50px;
+	margin-bottom: 20px;
+	background: #fff;
+}
+header .banner-content .btn-contact{
+    color: #CCCECE;
+    border: 2px solid #CCCECE;
+    padding: 8px 50px;
+}
+header .banner-content .btn-contact:hover{
+    background: darkslategray;
+}
+/*Header Section End*/
+/*Middle Section Start*/
+.middle{
+	padding: 80px 0px;
+	background-color: #F6F6F6;
+}
+.middle .content .line{
+    height: 2px;
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background: #B3B3B3;
+}
+.middle .content p{
+    color: #B3B3B3;
+    padding-right: 25%;
+}
+.middle .img-section .img-mod{
+	height: 300px;
+    width: 100%;
+}
+/*Middle Section End*/
+/*End Section Start*/
+.end{
+	padding: 80px 0px;
+	background-color: #28282E;
+}
+.end .content{
+    color: #fff;
+}
+.end .content .line{
+    height: 2px;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #B3B3B3;
+}
+.end .content p{
+    color: #B3B3B3;
+    padding-right: 25%;
+    padding-bottom: 30px;
+}
+.end .content .btn-read{
+    color: #fff;
+    border: 2px solid #B3B3B3;
+    padding: 8px 20px;
+}
+.end .content .btn-read:hover{
+    background-color: #000;
+}
+.end .img-section .img-mod{
+    height: 300px;
+    width: 100%;
+}
+/*End Section End*/
+
+
+footer{
+	background-color: #F13E2C;
+	padding: 30px 0px;
+	text-align: center;
+	color: #F6F6F6;
+}
+footer p{
+	margin: 0px;
+}
+
+
+
+/*Responsive CSS Start*/
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+	header .navbar .nav-item {
+	    padding: 0 36px;
+	}
+	header .banner-content h1 {
+		width: 44%;
+	    padding: 10px 20px;
+	}
+	.middle .img-section .img-mod {
+	    height: 250px;
+	    margin-top: 30px;
+	}
+	.end .img-section .img-mod {
+	    height: 250px;
+	    margin-top: 30px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	header .banner-content h1 {
+	    width: 60%;
+	    padding: 10px 20px;
+	}
+	.middle .content h1 {
+	    font-size: 31px;
+	}
+	.middle .img-section .img-mod {
+	    height: 250px;
+	    margin-top: 85px;
+	}
+	.end .content h1 {
+	    font-size: 31px;
+	}
+	.end .img-section .img-mod {
+	    height: 250px;
+	    margin-top: 85px;
+	}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+	 
+	header .navbar {
+	    padding: 30px 0px 0px 0px;
+	}
+	header .banner-content h1 {
+	    width: 62%;
+	    padding: 10px 20px;
+	    font-size: 30px;
+	}
+	.middle .img-section{
+		padding-top: 30px;
+	}
+	.end .img-section{
+		padding-top: 30px;
+	}
+
+
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+
+	header .banner-content h1 {
+	    width: 54%;
+	    padding: 10px 20px;
+	    font-size: 20px;
+	    text-align: center;
+	}
+	header .banner-content p {
+	    font-size: 14px;
+	    text-align: center;
+	}
+	.middle .content h1 {
+	    font-size: 25px;
+	    text-align: center;
+	}
+	.middle .content .line {
+	    margin: 30px auto;
+	}
+	.middle .content p {
+	    text-align: center;
+	    padding: 0px;
+	    margin-bottom: 50px;
+	}
+	.end .content h1 {
+	    font-size: 25px;
+	    text-align: center;
+	}
+	.end .content .line {
+	    margin: 30px auto;
+	}
+	.end .content p {
+	    text-align: center;
+	    padding: 0px;
+	    margin-bottom: 50px
+	}
+	.end .content{
+		text-align: center;
+	}
+	.end .img-section .img-mod {
+	    margin-top: 50px;
+	}
+
+}
+
+
+/*Responsive CSS End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,146 @@
+/*
+    ===== Autthor Info =====
+
+    Name : Md.Ariful Islam 
+    Student Of Sonargoan University 
+    Dept. of CSE
+*/
+
+
+
+
+/*Global CSS*/
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+</style>
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Home Part CSS Start*/
+
+
+/*Header CSS Start*/
+
+header .navbar{
+    padding: 30px 30px 0px 30px;
+}
+header .img-mod{
+    width: 70%;
+}
+header .navbar .nav-item{
+    padding: 0 50px;
+}
+header .navbar .nav-item .nav-link{
+    color: #005D7F;
+}
+header .navbar .nav-item .nav-link:hover{
+    color: coral;
+    
+}
+header .navbar .nav-item.active .nav-link{
+    color: #005D7F;
+}
+
+
+.line{
+    height: 10px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background: #B3B3B3;
+}
+
+
+footer{
+    background-color: #F13E2C;
+    padding: 30px 0px;
+    text-align: center;
+    color: #F6F6F6;
+}
+footer p{
+    margin: 0px;
+}
+
+
+
+
+.about {padding: 80px 0px;}
+.about .content h1{
+    padding-bottom: 50px;
+}
+.about .content p{
+    padding-right: 16%;
+    text-align: justify;
+}
+.about .img-section .img-mod{
+    height: 300px;
+}
+.about .img-section p{
+    text-align: justify;
+    padding-top: 14px;
+}
+
+
+/*Responsive CSS Start*/
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+    header .navbar .nav-item {
+        padding: 0 36px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .navbar-dark .navbar-toggler {
+        background: gray;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+     
+    .navbar-dark .navbar-toggler {
+        background: gray;
+    }
+    header .navbar {
+        padding: 30px 0px 0px 0px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    .navbar-dark .navbar-toggler {
+        background: gray;
+    }
+    header .navbar {
+        padding: 30px 0px 0px 0px;
+    }
+    .about{
+        text-align: center;
+    }
+    .about .content p {
+        padding-right: 0;
+        text-align: center;
+    }
+    .about .img-section p {
+        text-align: center;
+    }
+}
+
+
+/*Responsive CSS End*/
+
+
+
+
+
+
+
+
